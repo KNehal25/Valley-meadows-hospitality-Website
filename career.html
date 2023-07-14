@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <title>Careers | Valley Meadows Hospitality</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/x-icon" href="/img/title-logo.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" 
+  integrity="sha512-8gGGBZi0at1bxpGiEDvdccxlZbW+nzvvc2Dakxh9rRPrk4J6CX6BvKweN5+Qw6fBM4Ie8Bz1+q39Yh7G2EYF1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+  <!-- nav bar starts -->
+  <style>
+    .navbar-nav .get-in-touch {
+      border: 1px solid white;
+      transition: background-color 0.3s ease;
+    }
+  
+    .navbar-nav .get-in-touch:hover,
+    .navbar-nav .get-in-touch:hover .nav-link {
+      background-color: white !important;
+      color: #BA895C !important;
+    }
+  
+    .navbar-nav .career {
+      margin-right: 20px;
+    }
+  
+    .navbar-nav .nav-link:hover {
+      color: #BA895C !important;
+    }
+  </style>
+  
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #27201E;">
+    <a class="navbar-brand" href="index.html">
+      <img src="img/logo-1.png" width="200" height="90" alt="Logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html" style="color: white;">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html" style="color: white;">About Us</a>
+        </li>
+        <li class="nav-item career">
+          <a class="nav-link" href="career.html" style="color: white;">Career</a>
+        </li>
+        <li class="nav-item get-in-touch">
+          <a class="nav-link" href="#" style="color: white;">Get in Touch</a>
+        </li>
+      </ul>
+    </div>
+  </nav>  
+  <!-- nav bar ends -->
+
+<!-- front img start -->
+<style>
+  #about {
+    text-align: center;
+  }
+
+  .image-container {
+    position: relative;
+    margin-top: 20px;
+    width: 100%;
+    height: 45rem;
+    overflow: hidden;
+  }
+
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: blur(5px); /* Apply the blur filter */
+  }
+
+  .about-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%; /* Set the width to 100% */
+    font-size: 45px;
+    color: #BA895C;
+    font-weight: 700;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    text-align: center;
+  }
+</style>
+
+<section id="about" class="section">
+  <div class="image-container">
+    <img src="img/work-1.png" alt="work Image">
+    <div class="about-text">We work Together, we win Together</div>
+  </div>
+</section>
+
+
+<!-- front img end -->
+
+<!-- job posted start-->
+
+<style>
+  .card {
+      transition: box-shadow 0.3s;
+      background-color: #BA895C;
+  }
+
+  .card-container {
+      background-color: #312824;
+      padding: 20px;
+  }
+
+  .card:hover {
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+  .card-button {
+      display: flex;
+      justify-content: center; /* Change justify-content value to center */
+  }
+</style>
+<div class="card-container">
+  <div class="row justify-content-center">
+      <div class="col-md-3 mb-5">
+          <div class="card">
+              <div class="card-body text-center">
+                  <h3 class="card-title">Let's Work Together</h3>
+                  <h4><u>Below Are Available Positions:</u></h4>
+                  <h5>Waiter/Steward</h5>
+                  <h5>Restaurant Manager</h5>
+                  <h5>Kitchen Supervisor</h5>
+                  <h5>Marketing Executive</h5>
+                  <h5>Finance Controller</h5>
+                  <h5>Social Media Executive</h5>
+                  <div class="card-button">
+                      <a href="https://forms.gle/LWXFtVZ3kstZYRPy7" target="_blank" class="btn btn-primary">Apply Now</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- footer area start -->
+<style>
+  #footer {
+    background-color: #27201E;
+    padding: 20px;
+    color: white;
+    text-align: center;
+  }
+  
+  #footer a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  #footer .contact-info {
+    color: #BA895C;
+  }
+  
+  #footer .contact-info:hover {
+    color: white;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .social-icons a {
+    margin: 0 10px;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    vertical-align: middle;
+    
+  }
+  .white-icon {
+    filter: invert(100%);
+  }
+  .social-icons a:hover img {
+    filter: none; 
+  }
+</style>
+
+<footer id="footer">
+  <div class="container">
+    <p>Phone No: <a class="contact-info" href="tel:+919309493801">+919309493801</a></p>
+    <p>Email Id: <a class="contact-info" href="mailto:hrvalleymeadows@gmail.com">hrvalleymeadows@gmail.com</a></p>
+    <p>Address: <a class="contact-info" href="https://goo.gl/maps/73Q9F3aKYbMsAGW3A" target="_blank">Behind Fat Fish Restaurant & Bar, Agar Waddo, Calangute, Bargez Goa 403516</a></p>
+    <div class="social-icons">
+      <a href="https://www.facebook.com/valleymeadowshospitality" target="_blank"><img src="img/facebook.svg" alt="Facebook" class="white-icon"></a>
+      <a href="https://www.instagram.com/valleymeadowshospitality/" target="_blank"><img src="img/instagram.svg" alt="Instagram" class="white-icon"></a>
+      <a href="https://wa.me/919309493801" target="_blank"><img src="img/whatsapp.svg" alt="Whatsapp" class="white-icon"></a>
+    </div>
+  </div>
+</footer>
+
+
+<!-- footer area end -->
+
+<!-- copyright footer area start -->
+<style>
+  #footer2 {
+    background-color: #201D1C;
+    padding: 10px;
+    color: #BA895C;
+    text-align: center;
+  }
+  
+  #footer2 a {
+    color: inherit;
+    text-decoration: none;
+  }
+</style>
+
+<footer id="footer2">
+  <div class="container">
+    <p>Copyright © 2023 Valley Meadows Hospitality. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<!-- copyright footer area end -->
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

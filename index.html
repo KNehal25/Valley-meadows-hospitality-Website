@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <title>Valley Meadows Hospitality</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/x-icon" href="/img/title-logo.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" 
+  integrity="sha512-8gGGBZi0at1bxpGiEDvdccxlZbW+nzvvc2Dakxh9rRPrk4J6CX6BvKweN5+Qw6fBM4Ie8Bz1+q39Yh7G2EYF1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+  <!-- nav bar starts -->
+  <style>
+    .navbar-nav .get-in-touch {
+      border: 1px solid white;
+      transition: background-color 0.3s ease;
+    }
+  
+    .navbar-nav .get-in-touch:hover,
+    .navbar-nav .get-in-touch:hover .nav-link {
+      background-color: white !important;
+      color: #BA895C !important;
+    }
+  
+    .navbar-nav .career {
+      margin-right: 20px;
+    }
+  
+    .navbar-nav .nav-link:hover {
+      color: #BA895C !important;
+    }
+  </style>
+  
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #27201E;">
+    <a class="navbar-brand" href="index.html">
+      <img src="img/logo-1.png" width="200" height="90" alt="Logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html" style="color: white;">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html" style="color: white;">About Us</a>
+        </li>
+        <li class="nav-item career">
+          <a class="nav-link" href="career.html" style="color: white;">Career</a>
+        </li>
+        <li class="nav-item get-in-touch">
+          <a class="nav-link" href="#" style="color: white;">Get in Touch</a>
+        </li>
+      </ul>
+    </div>
+  </nav>  
+  <!-- nav bar ends -->
+
+  <!-- carousel images starts -->
+
+  <style>
+    .carousel-item img {
+      height: 55rem;
+      object-fit: cover;
+    }
+    .carousel-control-prev,
+    .carousel-control-next {
+      display: none;
+    }
+    
+    .carousel-indicators {
+      bottom: 0;
+      justify-content: center;
+    }
+    
+    .carousel-indicators li {
+      background-color: #ccc;
+      border-radius: 50%;
+      width: 12px;
+      height: 12px;
+      margin: 0 4px;
+    }
+    
+    .carousel-indicators .active {
+      background-color: #BA895C;
+    }
+    </style>
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="img/img-1.jpg" alt="Slide 1">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img/img-2.jpg" alt="Slide 2">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img/img-3.jpg" alt="Slide 3">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img/img-4.jpg" alt="Slide 4">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img/img-5.jpg" alt="Slide 5">
+        </div>
+      </div>
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleControls" data-slide-to="1"></li>
+        <li data-target="#carouselExampleControls" data-slide-to="2"></li>
+        <li data-target="#carouselExampleControls" data-slide-to="3"></li>
+        <li data-target="#carouselExampleControls" data-slide-to="4"></li>
+      </ol>
+    </div>
+  <!-- carousel images ends -->
+
+<!-- about section start -->
+<style>
+  #about {
+    background-color: #312824;
+    background-image: linear-gradient(45deg, #BA895C 25%, transparent 25%, transparent 75%, #BA895C 75%);
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  #about h2 {
+    margin-bottom: 20px;
+    color: #727557;
+  }
+  
+  #about p {
+    margin-bottom: 10px;
+  }
+  
+  .contact-btn {
+    border: 1px solid white;
+    color: white;
+    background-color: transparent;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .contact-btn:hover {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+  }
+</style>
+
+<section id="about" class="section">
+  <div class="container">
+    <div class="col-lg-6 mx-auto">
+      <h2 style="margin-bottom: 20px;">Valley Meadows Hospitality</h2>
+      <p>We have earned our name by developing one-of-a-kind properties and experiences that capture the essence of each place.</p>
+      <p>We are the owners of luxury properties: Shangri-la Jungle Resort, Valley Meadows Farms, and our restaurants Fat Fish Restaurant & Bar, St. Anthony's Beach Shack and Bobby's Fat Fish. Our vision is to create places of dreams. We are committed to keeping loyal to our Goan culture and including it as much as possible in all we do.</p>
+      <p>We feel that the notion of luxury is being redefined and that it is becoming increasingly centered on characteristics such as space, nature, silence, time for oneself, and discrete service while still paying close attention to detail.</p>
+      <div style="text-align: center;">
+        <a href="#" class="contact-btn">Contact Us</a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- about section end -->
+<!-- our properties start -->
+
+<style>
+  #properties {
+    background-color: #312824;
+    color: #6D6D6D;
+    padding: 52px;
+    text-align: center;
+  }
+
+  #properties h2 {
+    color: #727557;
+  }
+
+  .gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+
+  .gallery-item {
+    position: relative;
+    width: calc(50% - 20px);
+    margin: 10px;
+    overflow: hidden;
+  }
+
+  .gallery-item img {
+    width: 100%;
+    height: 500px; 
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s;
+  }
+
+  .gallery-item:hover img {
+    transform: scale(1.1);
+  }
+
+  .gallery-item .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: opacity 0.3s;
+  }
+
+  .gallery-item:hover .overlay {
+    opacity: 1;
+  }
+
+  .gallery-item .overlay h3 {
+    color: #fff;
+    margin-bottom: 10px;
+  }
+
+  .gallery-item .overlay .btn {
+    color: #fff;
+    background-color: #BA895C;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+</style>
+<section id="properties">
+  <h2>Our Properties</h2>
+  <p style="color: #BA895C;">We share a passion for hospitality.</p>
+  
+  <div class="gallery">
+    <div class="gallery-item">
+      <img src="img/gallery-1.jpg" alt="Property 1">
+      <div class="overlay">
+        <img src="img/gallery-logo-1.png" alt="logo-1" style="object-fit: contain; max-width: 250px; max-height: 200px;"><br>
+        <h3 style="color: #BA895C;">St. Anthony's Beach Shack</h3>
+        <p style="color: #BA895C;">Seafood, beer & Goan fare served alongside North Indian & Chinese staples in a beachside setting.</p>
+        <a href="https://anthonysbaga.com/" target="_blank" class="btn btn-primary">View Details</a>
+      </div>
+    </div>
+    <div class="gallery-item">
+      <img src="img/gallery-2.jpg" alt="Property 2">
+      <div class="overlay">
+        <img src="img/gallery-logo-2.png" alt="logo-2" style="object-fit: contain; max-width: 400px; max-height: 200px;"><br>
+        <h3 style="color: #BA895C;">Fat Fish Restaurant & Bar</h3>
+        <p style="color: #BA895C;">Airy, modern restaurant preparing signature Goan seafood dishes, plus thalis & tandoori fare.</p>
+        <a href="http://www.fatfishgoa.com/" target="_blank" class="btn btn-primary">View Details</a>
+      </div>
+    </div>
+    <div class="gallery-item">
+      <img src="img/gallery-3.jpg" alt="Property 3">
+      <div class="overlay">
+        <img src="img/gallery-logo-3.png" alt="logo-3" style="object-fit: contain; max-width: 400px; max-height: 200px;"><br>
+        <h3 style="color: #BA895C;">Shangri-La Jungle Resort</h3>
+        <p style="color: #BA895C;">Shangri-La Jungle Resort is nestled tranquily amongst the rich biodiversity of the Western Ghats, and offers a wide range of activities & attractions for everyone.</p>
+        <a href="http://www.shangrilajungleresort.com/" target="_blank" class="btn btn-primary">View Details</a>
+      </div>
+    </div>
+    <div class="gallery-item">
+      <img src="img/gallery-4.jpg" alt="Property 4">
+      <div class="overlay">
+        <img src="img/gallery-logo-4.png" alt="logo-4" style="object-fit: contain; max-width: 400px; max-height: 200px;"><br>
+        <h3 style="color: #BA895C;">Valley Meadows Farm</h3>
+        <p style="color: #BA895C;">Valley Meadows Farm is a beautiful haven to immerse yourself in spectacular sceneries with an emphasis on elegant simplicity and modern luxuries.</p>
+        <a href="http://www.valleymeadowsfarm.com/" target="_blank" class="btn btn-primary">View Details</a>
+      </div>
+    </div>
+    <div class="gallery-item">
+      <img src="img/gallery-5.jpg" alt="Property 5">
+      <div class="overlay">
+        <img src="img/gallery-logo-5.png" alt="logo-5" style="object-fit: contain; max-width: 400px; max-height: 200px;"><br>
+        <h3 style="color: #BA895C;">Bobby's Fat Fish</h3>
+        <p style="color: #BA895C;">Bobby's Fat Fish comes from a lifetime love affair with all things western, from music to movies, and of course most importantly food!</p>
+        <a href="http://www.bobbysfatfish.com/" target="_blank" class="btn btn-primary">View Details</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- our properties end -->
+
+<!-- footer area start -->
+<style>
+  #footer {
+    background-color: #27201E;
+    padding: 20px;
+    color: white;
+    text-align: center;
+  }
+  
+  #footer a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  #footer .contact-info {
+    color: #BA895C;
+  }
+  
+  #footer .contact-info:hover {
+    color: white;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .social-icons a {
+    margin: 0 10px;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    vertical-align: middle;
+    
+  }
+  .white-icon {
+    filter: invert(100%);
+  }
+  .social-icons a:hover img {
+    filter: none; 
+  }
+</style>
+
+<footer id="footer">
+  <div class="container">
+    <p>Phone No: <a class="contact-info" href="tel:+919309493801">+919309493801</a></p>
+    <p>Email Id: <a class="contact-info" href="mailto:hrvalleymeadows@gmail.com" target="_blank">hrvalleymeadows@gmail.com</a></p>
+    <p>Address: <a class="contact-info" href="https://goo.gl/maps/73Q9F3aKYbMsAGW3A" target="_blank">Behind Fat Fish Restaurant & Bar, Agar Waddo, Calangute, Bargez Goa 403516</a></p>
+    <div class="social-icons">
+      <a href="https://www.facebook.com/valleymeadowshospitality" target="_blank"><img src="img/facebook.svg" alt="Facebook" class="white-icon"></a>
+      <a href="https://www.instagram.com/valleymeadowshospitality/" target="_blank"><img src="img/instagram.svg" alt="Instagram" class="white-icon"></a>
+      <a href="https://wa.me/919309493801" target="_blank"><img src="img/whatsapp.svg" alt="Whatsapp" class="white-icon"></a>
+    </div>
+  </div>
+</footer>
+<!-- footer area end -->
+
+<!-- copyright footer area start -->
+<style>
+  #footer2 {
+    background-color: #201D1C;
+    padding: 10px;
+    color: #BA895C;
+    text-align: center;
+  }
+  
+  #footer2 a {
+    color: inherit;
+    text-decoration: none;
+  }
+</style>
+
+<footer id="footer2">
+  <div class="container">
+    <p>Copyright © 2023 Valley Meadows Hospitality. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<!-- copyright footer area end -->
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
